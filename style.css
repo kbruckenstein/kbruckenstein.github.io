@@ -1,0 +1,138 @@
+body{
+	margin: 0px;
+}
+header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	height: 90vh;
+	background-image: url("headerimage.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	color: white;
+	text-transform: uppercase;
+	line-height: 3em;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	text-shadow: 3px 3px 10px black;
+}
+
+.featureshead{
+	text-align: center;
+	margin: 30px;
+	font-size: 2em;
+}
+
+h1{
+	margin: auto;
+	margin-bottom: 25px;
+	padding: 0px 100px;
+	width: auto;
+}
+
+h2{
+	padding: 0px 100px 0px 100px;
+}
+
+p{
+	font-size: 20px;
+	padding: 0px 100px 0px 100px;
+}
+
+.contactbutton{
+	border-radius: 12px;
+	background-color: orange;
+	border-color: orange;
+	color: white;
+	width: 130px;
+	height: 50px;
+	font-size: 17px;
+}
+
+.partnersheader{
+	display: block;
+	text-align: center;
+	color: #fff;
+	background-color: #29aeef;
+	height: 2vh;
+	padding-top: 10px;
+}
+
+.partners{
+	display:flex;	
+	text-align: center;
+	color: #fff;
+	background-color: #29aeef;
+	height:8vh;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.partners img{
+	padding: 0px 40px;
+	max-width:230px;
+	max-height:95px;
+	width: auto;
+	height: auto;
+}
+
+.features{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(500px,1fr));
+/*	grid-template-rows: 1fr;*/
+	column-gap: 20px;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.why_api_section{
+	color: #fff;
+	background-color: #29aeef;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.use_cases{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 40px 20px;
+	padding: 40px 70px;
+	align-items: center;
+}
+
+.text{
+	grid-column: span 2;
+}
+
+.use_cases img{
+	grid-column: span 1;
+	object-fit: cover;
+	width: 100%;
+	align-content: center;
+}
+
+.enhance, .financialplan{
+	padding: 0px 0px 0px 30px;
+}
+
+.CRM{
+	padding: 0px 30px 0px 0px;
+}
+
+.text h1, .text p {
+	padding: 0px 0px;
+}
+
+footer{
+	color: #fff;
+	background-color: #29aeef;
+	text-align: center;
+	padding: 10px;
+	line-height: 1.5em;
+}
